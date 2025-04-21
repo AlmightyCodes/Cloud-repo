@@ -48,7 +48,7 @@ const UserDetails = () => {
 
             {userDetails && (
                 <div className="mt-4 border p-4 rounded bg-gray-100">
-                    <h3 className="text-xl font-semibold">User Details:</h3>
+                    <h3 className="text-xl font-semibold">Shodha Sheth:</h3>
                     <p><strong>User ID:</strong> {userDetails.username}</p>
                     <p><strong>Email:</strong> {userDetails.email}</p>
                     <p><strong>Date Joined:</strong> {userDetails.dateJoined}</p>
